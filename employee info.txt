@@ -1,0 +1,76 @@
+#include <stdio.h>
+#include<string.h>
+struct employee{
+char name[100];
+char employee_id[100];
+int experience;
+int salary;
+};
+int main()
+{
+    struct employee emp1,emp2,emp3,emp4,emp5;
+
+    //for first employee
+    strcpy(emp1.name,"pranjal");
+    strcpy(emp1.employee_id,"21MEB39");
+
+    //experience in years
+    emp1.experience=5;
+
+    //salary in thousand
+    emp1.salary=25000;
+
+    //enter details of second employee
+    strcpy(emp2.name,"rashi");
+    strcpy(emp2.employee_id,"34RASHI");
+    emp2.experience=15;
+    emp2.salary=90000;
+
+    strcpy(emp3.name,"ayra");
+    strcpy(emp3.employee_id,"34AYRA");
+    emp3.experience=12;
+    emp3.salary=9000;
+
+    strcpy(emp4.name,"Nayra");
+    strcpy(emp4.employee_id,"34NAYRA");
+    emp4.experience=2;
+    emp4.salary=4000;
+
+    strcpy(emp5.name,"KAVYa");
+    strcpy(emp5.employee_id,"34KAYRA");
+    emp5.experience=12;
+    emp5.salary=40000;
+    printf("\n following are the details of employee 1 ");
+    printf("\n name=%s",emp1.name);
+    printf("\n employee_id=%s",emp1.employee_id);
+    printf("\n experience=%d",emp1.experience);
+    printf("\n salary=%d",emp1.salary);
+
+    printf("\n following are the details of employee 2");
+    printf("\n name=%s",emp2.name);
+    printf("\n employee_id=%s",emp2.employee_id);
+    printf("\n experience=%d",emp2.experience);
+    printf("\n salary=%d",emp2.salary);
+
+    printf("\n following are the details of employee 3 ");
+    printf("\n name=%s",emp3.name);
+    printf("\n employee_id=%s",emp3.employee_id);
+    printf("\n experience=%d",emp3.experience);
+    printf("\n salary=%d",emp3.salary);
+
+    printf("\n following are the details of employee 4.employee_id");
+    printf("\n experience=%d",emp4.experience);
+    printf("\n salary=%d",emp4.salary);
+
+    printf("\n following are the details of employee 5 ");
+    printf("\n name=%s",emp5.name);
+    printf("\n employee_id=%s",emp5.employee_id);
+    printf("\n experience=%d",emp5.experience);
+    printf("\n salary=%d",emp5.salary);
+
+
+
+}
+
+
+
